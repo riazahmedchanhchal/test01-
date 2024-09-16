@@ -72,7 +72,7 @@ public class navigationtest {
     }
 }
 
-**#For Check the title**  
+#For Check the title
 
 package base;
 
@@ -91,18 +91,15 @@ public class title_verification {
 		{
 		    System.out.print("Title is incorrect");	
 		
-		}
-
-  
-		
+		}	
 	}
 			
 }
 
 #For Maximize the website 
 
-package base;
 
+package base;
 
 import org.openqa.selenium.firefox.FirefoxDriver;
 
