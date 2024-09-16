@@ -3,11 +3,13 @@
 This is an automation test suite for WordPress using Selenium and Java. The suite includes tests for logging into a WordPress site and verifying if the "WP Dark Mode" plugin is active.
 ## Requirements
 - Java JDK 8 
-- Maven
+- Maven project
 - gecodriver 
 - Eclipes
+
 **##Create a New Maven Project**
-**Add Dependencies in pom.xml**
+
+**#Add Dependencies in pom.xml**
 <project xmlns="https://maven.apache.org/POM/4.0.0" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>SQA</groupId>
@@ -71,6 +73,7 @@ public class navigationtest {
 }
 
 **#For Check the title**  
+
 package base;
 
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -93,3 +96,5 @@ public class title_verification {
 	}
 			
 }
+
+
